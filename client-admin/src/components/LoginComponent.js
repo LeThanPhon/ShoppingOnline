@@ -1,9 +1,6 @@
 import axios from 'axios';
 import React, { Component } from 'react';
 import MyContext from '../contexts/MyContext';
-import '../bootstrap/css/bootstrap.min.css'
-import '../css/ionicons.min.css'
-import '../css/style.css'
 
 class Login extends Component {
   static contextType = MyContext; // using this.context to access global state
