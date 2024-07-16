@@ -23,8 +23,8 @@ class Menu extends Component {
         <div className="float-left">
           <ul className="menu">
             <li className="menu"><Link to='/'>Home</Link></li>
-              {cates}
             <li className="menu"><Link to='/gmap'>Gmap</Link></li>
+              {cates}
           </ul>
         </div>
         <div className="float-right">
